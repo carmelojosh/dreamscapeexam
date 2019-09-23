@@ -113,6 +113,18 @@ Author : Mr gago
     background: url("assets/Image-3.jpg");
     height: 100vh;
 }
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    margin: 0 8px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #0009;
+    background-color: #ffffff8c;
+    border: 1px solid #ffffff8c;
+    border-radius: 10px;
+}
 /* FEATURES TOURS */
 
 .featured-tours{
@@ -402,7 +414,7 @@ textarea.form-control {
 /* FOOTER */
 
 .footer {
-    /* height: 100px; */
+    height: 90px;
     padding: 15px 0;
 }
 .footer .row{
@@ -448,6 +460,21 @@ align-items: center;
     display: block;
 }
 
+.slide1 {
+    background: url("assets/Image-1.jpg");
+    height: 50vh;
+}
+
+.slide2 {
+    background: url("assets/Image-2.jpg");
+    height: 50vh;
+}
+
+.slide3 {
+    background: url("assets/Image-3.jpg");
+    height: 50vh;
+}
+
 /* FEATURED POST */
 .square-thumbnail img {
     width: 100%;
@@ -476,3 +503,4 @@ align-items: center;
     }
 
 }
+ 

@@ -1,7 +1,14 @@
 <?php get_header();?>
 
 
+<!-- Slider -->
 
+
+<?php get_template_part( 'slider' ); ?>
+<!-- Featured Tours -->
+
+
+<?php get_template_part( 'featuredTours' ); ?>
 <!-- BEST TOURS -->
 <div id="tours-section">
     <div class="container tours-content">
